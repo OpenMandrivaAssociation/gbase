@@ -1,7 +1,7 @@
 Summary:	Small numeric base converter
 Name:		gbase
 Version:	0.5
-Release:	%mkrel 4
+Release:	%mkrel 5
 Source0:	%{name}-%{version}.tar.bz2
 License:	Artistic
 Group:		Sciences/Mathematics
