@@ -34,3 +34,32 @@ rm -rf $RPM_BUILD_ROOT
 %doc README TODO
 %{_bindir}/%{name}
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.5-6mdv2011.0
++ Revision: 618428
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.5-5mdv2010.0
++ Revision: 429180
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.5-4mdv2009.0
++ Revision: 245700
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.5-2mdv2008.1
++ Revision: 136426
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import gbase
+
+
+* Thu Aug 10 2006 Lenny Cartier <lenny@mandriva.com> 0.5-2mdv2007.0
+- rebuild
+
+* Thu Dec 16 2004 Olivier Blin <blino@mandrake.org> 0.5-1mdk
+- initial Mandrakelinux release
