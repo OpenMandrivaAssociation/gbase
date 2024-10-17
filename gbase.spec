@@ -5,7 +5,7 @@ Release:	7
 Source0:	%{name}-%{version}.tar.bz2
 License:	Artistic
 Group:		Sciences/Mathematics
-Url:		http://www.hibernaculum.net/gbase/
+Url:		https://www.hibernaculum.net/gbase/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	gtk+1.2-devel
 
